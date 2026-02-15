@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgentFlow Lite</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #f4f4f5; }
+    .header { padding: 1rem 2rem; border-bottom: 1px solid #27272a; }
+    .logo { font-size: 1.5rem; font-weight: bold; color: #00d4aa; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+    .hero { text-align: center; padding: 3rem 0; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero span { color: #00d4aa; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .card { background: #12121a; border: 1px solid #27272a; border-radius: 0.75rem; padding: 1.5rem; transition: all 0.3s; }
+    .card:hover { border-color: #00d4aa; box-shadow: 0 0 20px rgba(0,212,170,0.1); }
+    .card h3 { color: #f4f4f5; margin-bottom: 0.5rem; }
+    .card p { color: #71717a; font-size: 0.875rem; margin-bottom: 1rem; }
+    .badge { display: inline-block; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem; background: rgba(0,212,170,0.2); color: #00d4aa; }
+    .badge-free { background: rgba(34,197,94,0.2); color: #22c55e; }
+    .price { font-size: 1.25rem; font-weight: bold; color: #f4f4f5; }
+    .btn { display: inline-block; padding: 0.5rem 1rem; background: #00d4aa; color: #0a0a0f; border-radius: 0.5rem; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">⚡ AgentFlow Lite</div>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Supercharge Your Development with <span>Workflows</span></h1>
+      <p style="color: #a1a1aa;">Lightweight. Fast. Simple.</p>
+    </section>
+    <div class="grid">
+      <div class="card">
+        <h3>Auto PR Reviewer</h3>
+        <p>AI-powered pull request reviews</p>
+        <span class="badge">$29</span>
+        <a href="#" class="btn">Get</a>
+      </div>
+      <div class="card">
+        <h3>Deploy Master</h3>
+        <p>One-click cloud deployment</p>
+        <span class="badge">$49</span>
+        <a href="#" class="btn">Get</a>
+      </div>
+      <div class="card">
+        <h3>Test Suite Pro</h3>
+        <p>Testing with coverage reports</p>
+        <span class="badge badge-free">FREE</span>
+        <a href="#" class="btn">Get</a>
+      </div>
+      <div class="card">
+        <h3>Security Scanner</h3>
+        <p>Vulnerability detection</p>
+        <span class="badge">$29</span>
+        <a href="#" class="btn">Get</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
